@@ -37,6 +37,6 @@ Process is simply a program that is running in your system, when you execute a c
 
 ### Types of process
 
-1. Parent & Child Process -> Every process in linux is created by the parent process, Every new created process is a child process, most process have shell as there parent process
-2. Zombie & Orphan Process -> When a child process finishes its execution it sends SIGCHILD signal to the parent process informing that it has compleleted the execution. when the parent process terminates before the child process finished the child becomes an orphan process. orphan process are adopted by PID 1 process. Zombie process are the ones which has finished the execution but still remains in the process table because parent process has not read there exit status
-3. Daemon process -> These are the the background system process which continously provides services
+1. [ ] Parent & Child Process -> Every process in linux is created by the parent process, Every new created process is a child process, most process have shell as there parent process
+2. [ ] Zombie & Orphan Process -> When a child process finishes its execution it sends SIGCHILD signal to the parent process informing that it has compleleted the execution. when the parent process terminates before the child process finished the child becomes an orphan process. orphan process are adopted by PID 1 process. Zombie process are the ones which has finished the execution but still remains in the process table because parent process has not read there exit status
+3. [ ] Daemon process -> These are the the background system process which continously provides services
